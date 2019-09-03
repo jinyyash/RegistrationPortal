@@ -2,31 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="79f88d18-cdc3-400b-9fc9-1a1f3ab96774" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RegistrationPortal.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hsm/models/StudentDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/hsm/models/StudentDTO.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tcpClient/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tcpClient/src/main/java/com/hsm/resgisterStudent/Registration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tcpClient/src/main/resources/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tcpClient/target/classes/com/hsm/resgisterStudent/Registration.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tcpClient/target/classes/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tcpClient/tcpClient.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tcpServer/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tcpServer/src/main/java/com/hsm/controllers/StudentController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tcpServer/src/main/java/com/hsm/dbConnection/DBConnection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tcpServer/src/main/java/com/hsm/server/Server.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tcpServer/src/main/resources/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tcpServer/target/classes/com/hsm/controllers/StudentController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tcpServer/target/classes/com/hsm/dbConnection/DBConnection.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tcpServer/target/classes/com/hsm/server/Server.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tcpServer/target/classes/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tcpServer/tcpServer.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/log4j.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tcpClient/src/main/java/com/hsm/resgisterStudent/Registration.java" beforeDir="false" afterPath="$PROJECT_DIR$/tcpClient/src/main/java/com/hsm/resgisterStudent/Registration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tcpClient/src/main/resources/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/tcpClient/src/main/resources/log4j.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tcpClient/target/classes/com/hsm/resgisterStudent/Registration.class" beforeDir="false" afterPath="$PROJECT_DIR$/tcpClient/target/classes/com/hsm/resgisterStudent/Registration.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tcpServer/src/main/java/com/hsm/controllers/StudentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/tcpServer/src/main/java/com/hsm/controllers/StudentController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tcpServer/src/main/java/com/hsm/dbConnection/DBConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/tcpServer/src/main/java/com/hsm/dbConnection/DBConnection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tcpServer/src/main/java/com/hsm/server/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/tcpServer/src/main/java/com/hsm/server/Server.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tcpServer/src/main/resources/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/tcpServer/src/main/resources/log4j.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tcpServer/target/classes/com/hsm/controllers/StudentController.class" beforeDir="false" afterPath="$PROJECT_DIR$/tcpServer/target/classes/com/hsm/controllers/StudentController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tcpServer/target/classes/com/hsm/dbConnection/DBConnection.class" beforeDir="false" afterPath="$PROJECT_DIR$/tcpServer/target/classes/com/hsm/dbConnection/DBConnection.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tcpServer/target/classes/com/hsm/server/Server.class" beforeDir="false" afterPath="$PROJECT_DIR$/tcpServer/target/classes/com/hsm/server/Server.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tcpServer/target/classes/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/tcpServer/target/classes/log4j.properties" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -60,10 +48,11 @@
   <component name="ProjectId" id="1QGekIryYgxgHo1gEjjjQJMVNek" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -71,6 +60,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources" />
       <recent name="$PROJECT_DIR$/tcpServer/src/main/resources" />
       <recent name="$PROJECT_DIR$/tcpClient/src/main/resources" />
     </key>
@@ -132,7 +122,8 @@
       <option name="presentableId" value="Default" />
       <updated>1567401501761</updated>
       <workItem from="1567401505066" duration="7127000" />
-      <workItem from="1567422159866" duration="4248000" />
+      <workItem from="1567422159866" duration="6052000" />
+      <workItem from="1567476421412" duration="4650000" />
     </task>
     <servers />
   </component>

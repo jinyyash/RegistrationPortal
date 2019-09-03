@@ -13,7 +13,7 @@ import java.sql.SQLException;
 public class StudentController {
     public static boolean addStudent(JsonObject object) throws SQLException, ClassNotFoundException, SQLException, IOException {
         ObjectMapper mapper=new ObjectMapper();
-       StudentDTO student = mapper.readValue(object.toString(), StudentDTO.class);
+        StudentDTO student = mapper.readValue(object.toString(), StudentDTO.class);
         String sql = "insert into student values(?,?,?,?)";
         Connection conn = DBConnection.getDBConnection().getConnection();
         PreparedStatement stm = conn.prepareStatement(sql);
@@ -21,7 +21,6 @@ public class StudentController {
         stm.setObject(2, student.getName());
         stm.setObject(3, student.getAddress());
         stm.setObject(4, student.getTel());
-
         return stm.executeUpdate() > 0;
     }
 }

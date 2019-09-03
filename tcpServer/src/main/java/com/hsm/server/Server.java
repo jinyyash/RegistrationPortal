@@ -3,6 +3,9 @@ package com.hsm.server;
 import com.google.gson.JsonObject;
 import com.google.gson.JsonParser;
 import com.hsm.controllers.StudentController;
+import org.apache.log4j.Level;
+import org.apache.log4j.LogManager;
+import org.apache.log4j.Logger;
 
 import java.io.*;
 import java.net.InetAddress;
@@ -10,13 +13,11 @@ import java.net.ServerSocket;
 import java.net.Socket;
 import java.sql.SQLException;
 import java.util.Scanner;
-import java.util.logging.Logger;
 
 public class Server {
     public ServerSocket socket;
     public Scanner scanner;
-    private final static Logger logger = Logger.getLogger(Server.class.getName());
-
+    private final static Logger logger= LogManager.getLogger(Server.class);
     public Server(String ipAddress) throws IOException {
         //initializing port
         final int port = 8078;
@@ -35,10 +36,11 @@ public class Server {
         String data = null;
         Socket client = this.socket.accept();
         String clientAddress = client.getInetAddress().getHostAddress();
-        System.out.println("\r\nNew connection from " + clientAddress);
+        logger.info("\r\nNew connection from " + clientAddress);
         DataInputStream dataInputStream=new DataInputStream(client.getInputStream());
-        BufferedReader in = new BufferedReader(
-                new InputStreamReader(dataInputStream));
+        DataOutputStream outputStream=new DataOutputStream((client.getOutputStream()));
+        PrintWriter out = new PrintWriter(outputStream);
+        BufferedReader in = new BufferedReader(new InputStreamReader(dataInputStream));
 
         //getjson data
         while ( (data = in.readLine()) != null ) {
@@ -46,16 +48,20 @@ public class Server {
             JsonObject studentJson = jsonParser.parse(data).getAsJsonObject();
             try {
                 if(StudentController.addStudent(studentJson)){
-                    System.out.println("added");
+                    //print in server
+                    logger.info("--------------------student added ---------------------");
+                    out.flush();
                 }else{
-                    System.out.println("try again");
-                }
+                    logger.info("--------------------student failed ---------------------");
+                    out.flush();                }
             } catch (SQLException e) {
-                e.printStackTrace();
+                logger.error(e);
+
             } catch (ClassNotFoundException e) {
-                e.printStackTrace();
+                logger.trace(e);
+
             }
-            System.out.println("server obj from"+studentJson.toString());        }
+        }
     }
 
     public static void main(String args[]) throws IOException {

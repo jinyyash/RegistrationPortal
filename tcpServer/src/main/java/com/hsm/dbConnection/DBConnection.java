@@ -9,7 +9,7 @@ public class DBConnection {
     private Connection conn;
 
     private DBConnection() throws SQLException, ClassNotFoundException {
-        Class.forName("com.mysql.jdbc.Driver");
+        Class.forName("com.mysql.cj.jdbc.Driver");
         conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/registration", "root", "mysql");
     }
 
@@ -22,6 +22,7 @@ public class DBConnection {
     }
 
     public Connection getConnection() {
+
         return conn;
     }
 }

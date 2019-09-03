@@ -1,17 +1,18 @@
 package com.hsm.resgisterStudent;
 
 import com.google.gson.JsonObject;
+import org.apache.log4j.LogManager;
+import org.apache.log4j.Logger;
 
 import java.io.*;
 import java.net.InetAddress;
 import java.net.Socket;
 import java.util.Scanner;
-import java.util.logging.Logger;
 
 public class Registration {
     private Socket socket;
     public Scanner scanner;
-    private final static Logger logger = Logger.getLogger("ClientApp.class");
+    private final static Logger logger= LogManager.getLogger(Registration.class);
 
 
     public Registration(InetAddress serverAddress, int serverPort) throws IOException {
@@ -20,7 +21,7 @@ public class Registration {
         this.scanner= new Scanner(System.in);
     }
 
-    private void start() throws IOException {
+    private void start(){
         String nic;
         String name;
         String address;
@@ -35,6 +36,7 @@ public class Registration {
             address = scanner.nextLine();
             logger.info("Enter Student Telephone Number");
             tel = scanner.nextLine();
+
             //creating student json object
             JsonObject student = new JsonObject();
             student.addProperty("nic", nic);
@@ -42,11 +44,26 @@ public class Registration {
             student.addProperty("address",address);
             student.addProperty("tel",tel);
             System.out.println(student.toString());
-            DataOutputStream dataOutputStream=new DataOutputStream(socket.getOutputStream());
+            DataOutputStream dataOutputStream= null;
+            try {
+                dataOutputStream = new DataOutputStream(socket.getOutputStream());
+            } catch (IOException e) {
+                logger.fatal("Caught IOException", e);
+            }
             PrintWriter out = new PrintWriter(dataOutputStream);
+
             //print in server
             out.println(student);
             out.flush();
+            //get msg from server
+            BufferedReader in = null;
+            try {
+                in = new BufferedReader(new InputStreamReader(this.socket.getInputStream()));
+                System.out.println("Server says :"+in.readLine());
+            } catch (IOException e) {
+                logger.fatal("Caught IOException", e);
+
+            }
         }
 
     }
