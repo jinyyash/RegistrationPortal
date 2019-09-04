@@ -13,3 +13,42 @@ Connected to Server: /127.0.0.1
 2019-09-03 09:23:27 INFO  Server:52 - --------------------student added ---------------------
 2019-09-03 09:24:25 INFO  com.hsm.resgisterStudent.Registrationy-MM-dd HH:mm:ss} INFO  Registration:30 - Enter New Student details
 2019-09-03 09:24:25 INFO  com.hsm.resgisterStudent.Registrationy-MM-dd HH:mm:ss} INFO  Registration:31 - Enter Student National Identity card Number
+2019-09-03 09:28:17 INFO  Server:69 - 
+Server running ...: Host=127.0.0.1 Port=8078
+2019-09-03 09:28:26 INFO  Server:39 - 
+New connection from 127.0.0.1
+2019-09-03 09:28:26 INFO  com.hsm.resgisterStudent.Registrationy-MM-dd HH:mm:ss} INFO  Registration:75 - Start of setUp
+2019-09-03 09:28:26 INFO  com.hsm.resgisterStudent.Registrationy-MM-dd HH:mm:ss} INFO  Registration:77 - 
+Connected to Server: /127.0.0.1
+2019-09-03 09:28:26 INFO  com.hsm.resgisterStudent.Registrationy-MM-dd HH:mm:ss} INFO  Registration:30 - Enter New Student details
+2019-09-03 09:28:26 INFO  com.hsm.resgisterStudent.Registrationy-MM-dd HH:mm:ss} INFO  Registration:31 - Enter Student National Identity card Number
+2019-09-03 09:28:36 INFO  com.hsm.resgisterStudent.Registrationy-MM-dd HH:mm:ss} INFO  Registration:33 - Enter Student Name
+2019-09-03 09:28:50 INFO  com.hsm.resgisterStudent.Registrationy-MM-dd HH:mm:ss} INFO  Registration:35 - Enter Student Address
+2019-09-03 09:29:02 INFO  com.hsm.resgisterStudent.Registrationy-MM-dd HH:mm:ss} INFO  Registration:37 - Enter Student Telephone Number
+2019-09-03 09:29:08 INFO  com.hsm.resgisterStudent.Registrationy-MM-dd HH:mm:ss} INFO  Registration:30 - Enter New Student details
+2019-09-03 09:29:08 INFO  com.hsm.resgisterStudent.Registrationy-MM-dd HH:mm:ss} INFO  Registration:31 - Enter Student National Identity card Number
+2019-09-03 09:29:55 INFO  com.hsm.resgisterStudent.Registrationy-MM-dd HH:mm:ss} INFO  Registration:33 - Enter Student Name
+2019-09-03 09:29:58 INFO  com.hsm.resgisterStudent.Registrationy-MM-dd HH:mm:ss} INFO  Registration:35 - Enter Student Address
+2019-09-03 09:30:00 INFO  com.hsm.resgisterStudent.Registrationy-MM-dd HH:mm:ss} INFO  Registration:37 - Enter Student Telephone Number
+2019-09-03 09:30:05 ERROR Server:58 - com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'id' at row 1
+2019-09-03 09:31:10 INFO  Server:69 - 
+Server running ...: Host=127.0.0.1 Port=8078
+2019-09-03 09:31:16 INFO  Server:39 - 
+New connection from 127.0.0.1
+2019-09-03 09:31:16 INFO  com.hsm.resgisterStudent.Registrationy-MM-dd HH:mm:ss} INFO  Registration:75 - Start of setUp
+2019-09-03 09:31:16 INFO  com.hsm.resgisterStudent.Registrationy-MM-dd HH:mm:ss} INFO  Registration:77 - 
+Connected to Server: /127.0.0.1
+2019-09-03 09:31:16 INFO  com.hsm.resgisterStudent.Registrationy-MM-dd HH:mm:ss} INFO  Registration:30 - Enter New Student details
+2019-09-03 09:31:16 INFO  com.hsm.resgisterStudent.Registrationy-MM-dd HH:mm:ss} INFO  Registration:31 - Enter Student National Identity card Number
+2019-09-03 09:31:23 INFO  com.hsm.resgisterStudent.Registrationy-MM-dd HH:mm:ss} INFO  Registration:33 - Enter Student Name
+2019-09-03 09:31:26 INFO  com.hsm.resgisterStudent.Registrationy-MM-dd HH:mm:ss} INFO  Registration:35 - Enter Student Address
+2019-09-03 09:31:30 INFO  com.hsm.resgisterStudent.Registrationy-MM-dd HH:mm:ss} INFO  Registration:37 - Enter Student Telephone Number
+2019-09-03 09:31:36 INFO  com.hsm.resgisterStudent.Registrationy-MM-dd HH:mm:ss} INFO  Registration:30 - Enter New Student details
+2019-09-03 09:31:36 INFO  com.hsm.resgisterStudent.Registrationy-MM-dd HH:mm:ss} INFO  Registration:31 - Enter Student National Identity card Number
+2019-09-03 09:31:45 INFO  com.hsm.resgisterStudent.Registrationy-MM-dd HH:mm:ss} INFO  Registration:33 - Enter Student Name
+2019-09-03 09:31:50 INFO  com.hsm.resgisterStudent.Registrationy-MM-dd HH:mm:ss} INFO  Registration:35 - Enter Student Address
+2019-09-03 09:31:55 INFO  com.hsm.resgisterStudent.Registrationy-MM-dd HH:mm:ss} INFO  Registration:37 - Enter Student Telephone Number
+2019-09-03 09:32:01 INFO  com.hsm.resgisterStudent.Registrationy-MM-dd HH:mm:ss} INFO  Registration:30 - Enter New Student details
+2019-09-03 09:32:01 INFO  com.hsm.resgisterStudent.Registrationy-MM-dd HH:mm:ss} INFO  Registration:31 - Enter Student National Identity card Number
+2019-09-03 11:41:20 INFO  Server:69 - 
+Server running ...: Host=127.0.0.1 Port=8078

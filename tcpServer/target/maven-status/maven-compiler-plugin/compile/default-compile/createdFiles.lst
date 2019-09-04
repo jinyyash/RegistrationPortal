@@ -1,0 +1,6 @@
+com/hsm/controllers/StudentController.class
+com/hsm/server/ServerMain.class
+com/hsm/server/Server.class
+com/hsm/dbConnection/DBConnection.class
+com/hsm/server/ServerMain$1.class
+com/hsm/models/StudentDTO.class

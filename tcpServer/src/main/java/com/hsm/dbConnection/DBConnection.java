@@ -7,13 +7,16 @@ import java.sql.SQLException;
 public class DBConnection {
     private static DBConnection dbConnection;
     private Connection conn;
+    private String userName="root";
+    private String password="mysql";
+    private  String url="jdbc:mysql://localhost:3306/registration";
 
     private DBConnection() throws SQLException, ClassNotFoundException {
         Class.forName("com.mysql.cj.jdbc.Driver");
-        conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/registration", "root", "mysql");
+        conn = DriverManager.getConnection(url, userName,password);
     }
 
-    public static DBConnection getDBConnection() throws SQLException, ClassNotFoundException {
+    public static synchronized DBConnection getDBConnection() throws SQLException, ClassNotFoundException {
         if (dbConnection == null) {
             dbConnection = new DBConnection();
 

@@ -49,10 +49,10 @@ public class Server {
             try {
                 if(StudentController.addStudent(studentJson)){
                     //print in server
-                    logger.info("--------------------student added ---------------------");
+                    out.println("--------------------student added successfully  ---------------------");
                     out.flush();
                 }else{
-                    logger.info("--------------------student failed ---------------------");
+                    out.println("--------------------oops something wrong! ---------------------");
                     out.flush();                }
             } catch (SQLException e) {
                 logger.error(e);
