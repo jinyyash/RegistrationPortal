@@ -2,23 +2,45 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="79f88d18-cdc3-400b-9fc9-1a1f3ab96774" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/tcpClient/src/assembly/descriptors.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tcpServer/src/assembly/descriptors.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tcpServer/src/main/java/com/hsm/models/StudentDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tcpServer/src/main/java/com/hsm/server/ServerMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tcpServer/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tcpServer/src/main/java/com/hsm/repository/StudentRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tcpServer/src/main/java/com/hsm/repositoryImpl/StudentRepositoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tcpServer/src/main/java/com/hsm/service/StudentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tcpServer/src/main/java/com/hsm/serviceImpl/StudentServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/log4j-application.log" beforeDir="false" afterPath="$PROJECT_DIR$/log4j-application.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/hsm/models/StudentDTO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tcpClient/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/tcpClient/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tcpClient/target/classes/com/hsm/resgisterStudent/Registration.class" beforeDir="false" afterPath="$PROJECT_DIR$/tcpClient/target/classes/com/hsm/resgisterStudent/Registration.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tcpServer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/tcpServer/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tcpServer/src/main/java/com/hsm/dbConnection/DBConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/tcpServer/src/main/java/com/hsm/dbConnection/DBConnection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tcpServer/src/main/java/com/hsm/controllers/StudentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/tcpServer/src/main/java/com/hsm/controllers/StudentController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tcpServer/src/main/java/com/hsm/dbConnection/DBConnection.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tcpServer/src/main/java/com/hsm/models/StudentDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/tcpServer/src/main/java/com/hsm/models/Student.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tcpServer/src/main/java/com/hsm/server/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/tcpServer/src/main/java/com/hsm/server/Server.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tcpServer/src/main/java/com/hsm/server/ServerMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/tcpServer/src/main/java/com/hsm/server/ServerMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tcpServer/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/tcpServer/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tcpServer/src/main/resources/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/tcpServer/src/main/resources/log4j2.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tcpServer/target/appassembler/bin/app" beforeDir="false" afterPath="$PROJECT_DIR$/tcpServer/target/appassembler/bin/app" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tcpServer/target/appassembler/conf/log4j.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tcpServer/target/appassembler/lib/com/google/protobuf/protobuf-java/3.6.1/protobuf-java-3.6.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tcpServer/target/appassembler/lib/hsm/tcpServer/1.0-SNAPSHOT/tcpServer-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/tcpServer/target/appassembler/lib/hsm/tcpServer/1.0-SNAPSHOT/tcpServer-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tcpServer/target/appassembler/lib/log4j/log4j/1.2.17/log4j-1.2.17.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tcpServer/target/appassembler/lib/mysql/mysql-connector-java/8.0.17/mysql-connector-java-8.0.17.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tcpServer/target/archive-tmp/tcpServer-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/tcpServer/target/archive-tmp/tcpServer-1.0-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tcpServer/target/classes/com/hsm/controllers/StudentController.class" beforeDir="false" afterPath="$PROJECT_DIR$/tcpServer/target/classes/com/hsm/controllers/StudentController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tcpServer/target/classes/com/hsm/dbConnection/DBConnection.class" beforeDir="false" afterPath="$PROJECT_DIR$/tcpServer/target/classes/com/hsm/dbConnection/DBConnection.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tcpServer/target/classes/com/hsm/dbConnection/DBConnection.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tcpServer/target/classes/com/hsm/models/StudentDTO.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/tcpServer/target/classes/com/hsm/server/Server.class" beforeDir="false" afterPath="$PROJECT_DIR$/tcpServer/target/classes/com/hsm/server/Server.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tcpServer/target/classes/com/hsm/server/ServerMain$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/tcpServer/target/classes/com/hsm/server/ServerMain$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tcpServer/target/classes/com/hsm/server/ServerMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/tcpServer/target/classes/com/hsm/server/ServerMain.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tcpServer/target/classes/log4j.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tcpServer/target/generated-resources/appassembler/jsw/tcpServer/conf/log4j.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tcpServer/target/generated-resources/appassembler/jsw/tcpServer/conf/wrapper.conf" beforeDir="false" afterPath="$PROJECT_DIR$/tcpServer/target/generated-resources/appassembler/jsw/tcpServer/conf/wrapper.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tcpServer/target/generated-resources/appassembler/jsw/tcpServer/lib/log4j-1.2.17.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tcpServer/target/generated-resources/appassembler/jsw/tcpServer/lib/mysql-connector-java-8.0.17.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tcpServer/target/generated-resources/appassembler/jsw/tcpServer/lib/protobuf-java-3.6.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tcpServer/target/generated-resources/appassembler/jsw/tcpServer/lib/tcpServer-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/tcpServer/target/generated-resources/appassembler/jsw/tcpServer/lib/tcpServer-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tcpServer/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/tcpServer/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tcpServer/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/tcpServer/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tcpServer/target/tcpServer-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/tcpServer/target/tcpServer-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tcpServer/target/tcpServer-1.0-SNAPSHOT.tar.gz" beforeDir="false" afterPath="$PROJECT_DIR$/tcpServer/target/tcpServer-1.0-SNAPSHOT.tar.gz" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -32,6 +54,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="spring-beans.schema" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -55,6 +79,12 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelOrder2" value="2" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RequestMappingsPanelWidth2" value="75" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -77,6 +107,11 @@
     </key>
   </component>
   <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
     <option name="ruleStates">
       <list>
         <RuleState>
@@ -115,12 +150,48 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Server" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="tcpServer" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hsm.server.Server" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServerMain" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="tcpServer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hsm.server.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hsm.server.ServerMain" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Registration" />
+        <item itemvalue="Spring Boot.ServerMain" />
         <item itemvalue="Application.Server" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="allServicesViewState">
+      <serviceView>
+        <treeState>
+          <expand>
+            <path>
+              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@22ac5cde" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+            </path>
+          </expand>
+          <select />
+        </treeState>
+      </serviceView>
+    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -137,6 +208,7 @@
       <workItem from="1567476421412" duration="5814000" />
       <workItem from="1567485056928" duration="10358000" />
       <workItem from="1567499455184" duration="2585000" />
+      <workItem from="1567568282474" duration="15676000" />
     </task>
     <task id="LOCAL-00001" summary="cvfvf">
       <created>1567482905942</created>

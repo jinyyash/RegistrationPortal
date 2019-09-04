@@ -22,13 +22,6 @@
         <maven.compiler.target>9</maven.compiler.target>
     </properties>
     <dependencies>
-         <!-- https://mvnrepository.com/artifact/log4j/log4j -->
-         <dependency>
-             <groupId>log4j</groupId>
-             <artifactId>log4j</artifactId>
-             <version>1.2.17</version>
-         </dependency>
-
         <!-- https://mvnrepository.com/artifact/com.google.code.gson/gson -->
         <dependency>
             <groupId>com.google.code.gson</groupId>
@@ -41,6 +34,19 @@
             <artifactId>mysql-connector-java</artifactId>
             <version>8.0.17</version>
         </dependency>
+        <!-- https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-api -->
+        <dependency>
+            <groupId>org.apache.logging.log4j</groupId>
+            <artifactId>log4j-api</artifactId>
+            <version>2.12.1</version>
+        </dependency>
+
+        <dependency>
+        <groupId>org.apache.logging.log4j</groupId>
+        <artifactId>log4j-core</artifactId>
+        <version>2.12.1</version>
+        </dependency>
+
 
         <dependency>
             <groupId>junit</groupId>
@@ -52,14 +58,16 @@
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-context</artifactId>
-            <version>2.5.6.SEC03</version>
+            <version>5.1.9.RELEASE</version>
         </dependency>
+
         <!-- https://mvnrepository.com/artifact/org.springframework/spring-core -->
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-core</artifactId>
             <version>5.1.9.RELEASE</version>
         </dependency>
+
         <!-- https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-data-jpa -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -105,9 +113,14 @@
             <scope>test</scope>
             <type>jar</type>
         </dependency>
-
-
-
+        <dependency>
+            <!-- Import dependency management from Spring Boot -->
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-dependencies</artifactId>
+            <version>1.5.7.RELEASE</version>
+            <type>pom</type>
+            <scope>import</scope>
+        </dependency>
 
     </dependencies>
 
@@ -158,8 +171,10 @@
                     <artifactId>maven-project-info-reports-plugin</artifactId>
                     <version>3.0.0</version>
                 </plugin>
+
             </plugins>
         </pluginManagement>
+
     </build>
 
 

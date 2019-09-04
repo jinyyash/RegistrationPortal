@@ -1,6 +1,9 @@
 com/hsm/controllers/StudentController.class
 com/hsm/server/ServerMain.class
 com/hsm/server/Server.class
-com/hsm/dbConnection/DBConnection.class
+com/hsm/serviceImpl/StudentServiceImpl.class
+com/hsm/service/StudentService.class
 com/hsm/server/ServerMain$1.class
-com/hsm/models/StudentDTO.class
+com/hsm/repositoryImpl/StudentRepositoryImpl.class
+com/hsm/repository/StudentRepository.class
+com/hsm/models/Student.class

@@ -1,11 +1,13 @@
 package com.hsm.server;
 
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.tanukisoftware.wrapper.WrapperListener;
 import org.tanukisoftware.wrapper.WrapperManager;
 
 import java.io.IOException;
 import java.util.concurrent.Executors;
-
+@SpringBootApplication
 public class ServerMain implements WrapperListener {
 
     private Server serverApp;
@@ -16,6 +18,8 @@ public class ServerMain implements WrapperListener {
                 public void run() {
                     try {
                         Server.main(strings);
+                        SpringApplication.run(ServerMain.class, strings);
+
                     } catch (IOException e) {
                         e.printStackTrace();
                     }
@@ -36,6 +40,8 @@ public class ServerMain implements WrapperListener {
     }
 
     public static void main(String[] args) {
+
         WrapperManager.start(new ServerMain(),args);
+
     }
 }

@@ -2,25 +2,28 @@ package com.hsm.controllers;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.google.gson.JsonObject;
-import com.hsm.dbConnection.DBConnection;
-import com.hsm.models.StudentDTO;
+import com.hsm.models.Student;
+import com.hsm.service.StudentService;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Controller;
 
 import java.io.IOException;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.SQLException;
-
+@Controller
 public class StudentController {
-    public static boolean addStudent(JsonObject object) throws SQLException, ClassNotFoundException, SQLException, IOException {
+    @Autowired
+    private StudentService studentService;
+    public  boolean addStudent(JsonObject object) throws SQLException, ClassNotFoundException, IOException {
         ObjectMapper mapper=new ObjectMapper();
-        StudentDTO student = mapper.readValue(object.toString(), StudentDTO.class);
-        String sql = "insert into student values(?,?,?,?)";
-        Connection conn = DBConnection.getDBConnection().getConnection();
-        PreparedStatement stm = conn.prepareStatement(sql);
-        stm.setObject(1, student.getNic());
-        stm.setObject(2, student.getName());
-        stm.setObject(3, student.getAddress());
-        stm.setObject(4, student.getTel());
-        return stm.executeUpdate() > 0;
+        Student student = mapper.readValue(object.toString(), Student.class);
+        int result=studentService.save(student);
+        if(result>0){
+            return true;
+        }else{
+            return false;
+        }
     }
 }

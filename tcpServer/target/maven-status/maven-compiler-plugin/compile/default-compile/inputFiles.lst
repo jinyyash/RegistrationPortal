@@ -1,5 +1,8 @@
+/home/jinedee/projects/RegistrationPortal/tcpServer/src/main/java/com/hsm/repository/StudentRepository.java
+/home/jinedee/projects/RegistrationPortal/tcpServer/src/main/java/com/hsm/models/Student.java
 /home/jinedee/projects/RegistrationPortal/tcpServer/src/main/java/com/hsm/server/ServerMain.java
 /home/jinedee/projects/RegistrationPortal/tcpServer/src/main/java/com/hsm/controllers/StudentController.java
+/home/jinedee/projects/RegistrationPortal/tcpServer/src/main/java/com/hsm/serviceImpl/StudentServiceImpl.java
 /home/jinedee/projects/RegistrationPortal/tcpServer/src/main/java/com/hsm/server/Server.java
-/home/jinedee/projects/RegistrationPortal/tcpServer/src/main/java/com/hsm/dbConnection/DBConnection.java
-/home/jinedee/projects/RegistrationPortal/tcpServer/src/main/java/com/hsm/models/StudentDTO.java
+/home/jinedee/projects/RegistrationPortal/tcpServer/src/main/java/com/hsm/service/StudentService.java
+/home/jinedee/projects/RegistrationPortal/tcpServer/src/main/java/com/hsm/repositoryImpl/StudentRepositoryImpl.java
